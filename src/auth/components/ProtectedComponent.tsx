@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { useCanAccess } from '../hooks/useCanAccess';
 import type { UserRole } from '../../config/permissions';
 

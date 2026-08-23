@@ -6,7 +6,7 @@ import { GoProject } from "react-icons/go";
 import { FiFileText, FiClock, FiUser, FiX } from "react-icons/fi";
 import { useParams } from "react-router-dom";
 import instance from "../api/instance";
-import { listarProjetoPorUsuarioLogado, listarProjetosPorGestor } from "../services/projectService";
+import { listarProjetosPorGestor } from "../services/projectService";
 import { KeycloakContext } from "../contexts/KeycloakProvider";
 
 type Profissional = { id: string; nomeUsuario: string };

@@ -4,7 +4,7 @@ import Dropdown from "../shared/components/Dropdown";
 import Botao from "../shared/components/Botao";
 import { PiHandCoins } from "react-icons/pi";
 import { GoProject } from "react-icons/go";
-import { listarProfissionaisAtivos, criarProjeto, listarUsuariosAtivos } from "../services/projectService";
+import { criarProjeto, listarUsuariosAtivos } from "../services/projectService";
 import { listarClientesAtivos } from "../services/clienteService";
 
 export default function FormCadastroProjeto() {

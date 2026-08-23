@@ -3,14 +3,11 @@ import CadastroUsuario from "./pages/TelaCadastroUsuario"
 import CadastroProjeto from './pages/TelaCadastroProjeto'
 import ListaProjetos from './pages/TelaListaProjetos'
 import ApontamentoHoras from './pages/TelaApontamentoHoras'
-import DevAllocationTest from './pages/TelaDevAllocationTest';
 import DescricaoProjeto from './pages/TelaDescricaoProjeto'
-import TelaFuncionarios from './pages/TelaFuncionarios'
 import CadastroItem from './pages/TelaCadastroItem'
 import TelaLogProfissional from './pages/TelaLogProfissional'
 import Historico from './pages/TelaHistorico'
 import ListaApontamentosGestor from './pages/TelaListaApontamentosGestor'
-import TelaTeste from './pages/TelaTeste'
 import TelaCadastroCliente from './pages/TelaCadastroCliente'
 
 import PrivateRoute from './routes/PrivateRoutes'

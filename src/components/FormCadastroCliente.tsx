@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { MdBusiness } from "react-icons/md";
 import { HiOutlineMail, HiPhone } from "react-icons/hi";
 import { FaRegIdCard, FaUser } from "react-icons/fa";
