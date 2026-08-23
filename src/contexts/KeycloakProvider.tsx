@@ -28,7 +28,7 @@ export const KeycloakProvider = ({ children }: KeycloakProviderProps) => {
   const [carregando, setCarregando] = useState<boolean>(true);
 
   useEffect(() => {
-    keycloak.init({ onLoad: 'check-sso', checkLoginIframe: false, pkceMethod: undefined })
+    keycloak.init({ onLoad: 'check-sso', checkLoginIframe: false, pkceMethod: false })
       .then((auth: boolean) => {
         setAutenticado(auth);
         setCarregando(false);
